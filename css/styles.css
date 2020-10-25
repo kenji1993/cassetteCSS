@@ -9,7 +9,7 @@ html {
 main {
     width: 100%;
     height: 100vh;
-    background-color: aquamarine;
+    background-color: lightpink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ main {
 .cassette-main {
     width: 40rem;
     height: 18rem;
-    background-color: lightgrey;
+    background-color: rgb(134, 240, 160);
     border-radius: 1rem 1rem 0 0;
     padding: 1.5rem;
 }
@@ -71,14 +71,15 @@ main {
 .cassette-footer {
     width: 40rem;
     height: 8rem;
-    background-color: #000;
+    background-color: rgb(134, 240, 160);
     border-radius: 0 0 1rem 1rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 .cassette-footer-stuff {
-    width: 20rem;
+    width: 30rem;
     height: 6rem;
+    clip-path: polygon(8% 0, 92% 0, 100% 100%, 0% 100%);
     background-color: #fff;
 }
