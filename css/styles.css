@@ -73,6 +73,33 @@ main {
     border: 0.2rem solid #000;
     border-radius: 10rem;
 }
+.cassette-main-body-mark {
+    width: 100%;
+    display: flex;
+
+}
+.cassette-main-body-mark-left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mark {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.8rem;
+}
+.cassette-main-body-mark-right {
+    width: 50%;
+}
+.cassette-main-body-mark-right span:nth-child(1) {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.cassette-main-body-mark-right span:nth-child(2) {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
 .cassette-footer {
     width: 40rem;
     height: 7rem;
