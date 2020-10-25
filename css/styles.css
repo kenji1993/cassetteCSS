@@ -41,6 +41,32 @@ main {
     border: 0.3rem solid #000;
     margin: 0 auto;
     border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+}
+.circle1,
+.circle2 {
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 0.2rem solid #000;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    width: 8.5rem;
+    height: 5.5rem;
+    border: 0.2rem solid #000;
+}
+
+.circle-circle {
+    width: 4rem;
+    height: 4rem;
+    border: 0.2rem solid #000;
+    border-radius: 10rem;
 }
 .cassette-footer {
     width: 40rem;
