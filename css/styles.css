@@ -16,14 +16,17 @@ main {
 }
 .cassette-main {
     width: 40rem;
-    height: 18rem;
+    height: 19rem;
     background-color: rgb(134, 240, 160);
     border-radius: 1rem 1rem 0 0;
-    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
 .cassette-main-body {
-    width: 37rem;
-    height: 15rem;
+    width: 36rem;
+    height: 17rem;
     background-color: #fff;
     border-radius: 0.5rem;
     display: block;
@@ -34,6 +37,9 @@ main {
     height: 5rem;
     border: 0.2rem solid #000;
     margin-bottom: 0.2rem;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.6rem;
 }
 .cassette-main-body-reel {
     width: 24rem;
@@ -61,7 +67,6 @@ main {
     height: 5.5rem;
     border: 0.2rem solid #000;
 }
-
 .circle-circle {
     width: 4rem;
     height: 4rem;
@@ -70,7 +75,7 @@ main {
 }
 .cassette-footer {
     width: 40rem;
-    height: 8rem;
+    height: 7rem;
     background-color: rgb(134, 240, 160);
     border-radius: 0 0 1rem 1rem;
     display: flex;
@@ -82,4 +87,45 @@ main {
     height: 6rem;
     clip-path: polygon(8% 0, 92% 0, 100% 100%, 0% 100%);
     background-color: #fff;
+    display: flex;
+}
+.cassette-footer-stuff-left {
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot1 {
+    width: 2rem;
+    height: 2rem;
+    border: 0.2rem solid #000;
+    border-radius: 4rem;
+    margin-bottom: -2.5rem;
+    margin-right: 2.5rem;
+}
+.square-stuff1 {
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 0.2rem solid #000;
+}
+.cassette-footer-stuff-right {
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square-stuff2 {
+    width: 1.3rem;
+    height: 1.3rem;
+    border: 0.2rem solid #000;
+}
+.dot2 {
+    width: 2rem;
+    height: 2rem;
+    border: 0.2rem solid #000;
+    border-radius: 4rem;
+    margin-left: 2.5rem;
+    margin-bottom: -2.5rem;
 }
