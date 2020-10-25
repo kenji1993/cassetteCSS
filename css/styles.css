@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cassette-main {
+    width: 40rem;
+    height: 18rem;
+    background-color: lightgrey;
+    border-radius: 1rem 1rem 0 0;
+    padding: 1.5rem;
+}
+.casstette-main-body {
+    width: 37rem;
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+.cassette-footer {
+    width: 40rem;
+    height: 8rem;
+    background-color: #000;
+    border-radius: 0 0 1rem 1rem;
+}
